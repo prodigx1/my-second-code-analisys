@@ -1,0 +1,23 @@
+*Importação*, fato: Utiliza o kernel32, não quer dizer que ele cria arquivos, mas tem conexão.
+
+*funções*, fato: utiliza "CreateFileA", "WriteFile".
+
+*Strings suspeitas*:
+a string "teste.txt" dentro do main, 140005050.
+string "hi, this text",  14000505a.
+
+Corportamentos:
+140001774, pegando ref da string em 140005050.
+14000179e, usa como parametro para o CreateFileA.
+1400017a1, ref da CreateFile e passa os parametros.
+1400017a8, Call da CreateFile.
+
+14000505a, string que vai ser usada na escrita do arquivo.
+1400017bc, ref  da string em RAX.
+1400017da, nova ref da string que vai ser passaado como parametro.
+1400017f8, call da WriteFile.
+
+
+
+
+

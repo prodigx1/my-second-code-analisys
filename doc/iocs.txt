@@ -1,0 +1,11 @@
+binario:
+hash:80C19F9E41E36D01EBBB215BF309BFDB9C6DDF21EDE75ABAC2C8A4F0A2ACE4BF
+
+
+tamanho: 73603 bytes, 
+64 bits
+entropy: 4,8 (medio)
+magic: PE
+
+compilador: gcc
+DataCompilado: Mon Aug 17 03:22:26 2026 (UTC)

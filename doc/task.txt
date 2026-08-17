@@ -1,0 +1,4 @@
+Objetivo: Encontrar main, ter provas suficientes sobre o comportamento demonstrado.
+
+Status: Concluido.
+
